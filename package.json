@@ -1,7 +1,7 @@
 {
     "name": "devtools-auto-open",
     "description": "Automatically opens Firefox Developer Tools when new tab / new window is opened.",
-    "version": "1.0.1",
+    "version": "1.0.4",
     "author": {
         "name": "Dmitry Kulikov",
         "email": "kulikovdn@gmail.com"
