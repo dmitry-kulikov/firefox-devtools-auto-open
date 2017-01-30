@@ -1,0 +1,32 @@
+{
+    "name": "devtools-auto-open",
+    "description": "Automatically opens Firefox Developer Tools when new tab / new window is opened.",
+    "version": "1.0.0",
+    "author": {
+        "name": "Dmitry Kulikov",
+        "email": "kulikovdn@gmail.com"
+    },
+    "bugs": {
+        "url": "https://github.com/dmitry-kulikov/firefox-devtools-auto-open/issues"
+    },
+    "engines": {
+        "firefox": "*"
+    },
+    "homepage": "https://github.com/dmitry-kulikov/firefox-devtools-auto-open.git",
+    "id": "devtools-auto-open@kulikovdn.com",
+    "keywords": [
+        "developer tools",
+        "devtools"
+    ],
+    "license": "MIT",
+    "main": "lib/main.js",
+    "permissions": {
+        "private-browsing": true,
+        "multiprocess": true
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npm/npm.git"
+    },
+    "title": "DevTools Auto Open"
+}
