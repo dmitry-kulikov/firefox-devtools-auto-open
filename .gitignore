@@ -3,3 +3,6 @@
 
 # Node.js modules
 /node_modules
+
+# XPI package
+/devtools-auto-open.xpi
