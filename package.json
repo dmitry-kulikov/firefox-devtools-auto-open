@@ -1,7 +1,7 @@
 {
     "name": "devtools-auto-open",
     "description": "Automatically opens Firefox Developer Tools when new tab / new window is opened.",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "author": {
         "name": "Dmitry Kulikov",
         "email": "kulikovdn@gmail.com"
@@ -24,6 +24,22 @@
         "private-browsing": true,
         "multiprocess": true
     },
+    "preferences": [
+        {
+            "name": "onTabReady",
+            "title": "On tab ready",
+            "description": "Open Developer Tools when the DOM for a tab's content is ready.",
+            "type": "bool",
+            "value": true
+        },
+        {
+            "name": "onTabOpen",
+            "title": "On tab open",
+            "description": "Open Developer Tools immediately when a new tab is opened (not recommended).",
+            "type": "bool",
+            "value": false
+        }
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npm/npm.git"
